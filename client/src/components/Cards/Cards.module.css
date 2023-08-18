@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.containerCards {
+  position: relative;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.containerCards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.containerInfo {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.containerCards:hover .containerInfo {
+  display: block;
+}
+
+.image {
+  width: 10.5rem;
+  height: 10rem;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.text {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.parrafo {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #f2f2f2;
+}
+
+.containerInfo:hover .button {
+  background-color: #fff;
+}
+
+@media (min-width:500px) and (max-width:1000px) {
+
+  .image {
+    width: 8rem;
+    height: 7rem;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .containerCards {
+    margin: 1rem;
+  }
+  
+  .containerInfo {
+    padding: 5px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+  
+  .parrafo {
+    margin-bottom: 8px;
+  }
+  
+  .button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width:400px) and (max-width:837px) {
+  .image {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .containerCards {
+    margin: 1rem;
+  }
+  
+  .containerInfo {
+    padding: 5px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+  
+  .parrafo {
+    margin-bottom: 8px;
+  }
+  
+  .button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width:200px) and (max-width:400px) {
+  .image {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}

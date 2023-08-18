@@ -1,0 +1,45 @@
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image{
+    height: .5rem;
+    filter: invert();
+    margin: .3rem;
+}
+
+.button{
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.button:hover{
+    background-color: rgb(34, 28, 28);
+}
+
+.Input{
+    width: 3rem;
+    font-size: 1rem;
+}
+
+.number{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.disabled{
+    border: none;
+    background-color: rgba(34, 34, 34, 0.678);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+/* FilterByOrder.module.css */
+
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    background-color: #f0f0f086;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    gap: 0.4rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow:0 0 10px black;
+  }
+  
+  select {
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  select:hover {
+    border-color: #999;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

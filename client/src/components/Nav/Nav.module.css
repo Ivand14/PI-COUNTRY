@@ -1,0 +1,53 @@
+.Container{
+    display: flex;
+    background-color: #e6e2e2;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    box-shadow: 5px 5px 10px black;
+    z-index: 1;
+}
+
+.links{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    margin: 0 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8rem;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.658);
+}
+
+@media (min-width:400px) and (max-width:837px) {
+    .Container{
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        padding: .5rem;
+    }
+    a{
+        font-size: .6rem;
+    }
+}
+
+@media (min-width:200px) and (max-width:400px) {
+    .Container{
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+        padding: .5rem;
+    }
+    a{
+        font-size: .6rem;
+    }
+}

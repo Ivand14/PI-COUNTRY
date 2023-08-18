@@ -1,0 +1,51 @@
+.Container{
+    background-image:  linear-gradient(rgba(70, 66, 66, 0.7), rgba(65, 51, 51, 0.7)), url('../../../public/portada.jpg');
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.ContainerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 2.3rem;
+    margin-top: 10rem;
+    color: aliceblue;
+}
+
+.button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: aliceblue;
+    height: 3rem;
+  }
+  .button:hover {
+    border-color: #646cff;
+  }
+  .button:focus,
+  .button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  @media (max-width: 500px){
+    .title{
+      font-size: 1.2rem;
+      margin-top: 20rem;
+      margin-bottom: 2rem;
+      color: aliceblue;
+  }
+  }
